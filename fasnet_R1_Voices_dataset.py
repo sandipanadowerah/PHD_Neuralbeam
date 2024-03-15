@@ -48,8 +48,8 @@ with open(config_path) as f:
 # In[26]:
 
 
-data_path = config['data_path']#'/home/ajinkyak/workspace/projects/Voices_evaluation/fasnet_R1/enroll_eval'
-dir_paths = config['dir_paths']#'/home/ajinkyak/workspace/projects/Voices_evaluation/fasnet_R1/enroll_eval_dir.txt'
+data_path = config['data_path']#'directory_path'
+dir_paths = config['dir_paths']#'directory_path'
 s1_tag =    config['s1_tag']
 step_size = config['step_size']
 
